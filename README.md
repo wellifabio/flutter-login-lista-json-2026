@@ -26,12 +26,17 @@ flutter pub get
 flutter run
 ```
 
-## Outros
+## Outras informações
 Comando para gerar o .apk para instalar no Android e testar
 ```bash
 flutter build apk --release
 ```
-- Neste repositório existe um .apk na pasta assets caso queira testar em seu celular Android.
+- As imagens .network geralmente não aparecem quando instalamos o .apk no dispositivo, para corrigir temos que adicionar a permição no arquivo AndroidManifest.xml que fica localizado em android/app/src/main antes de gerar o .apk
+```xml
+<uses-permission android:name="android.permission.INTERNET"/>
+```
+- Neste repositório existe um arquivo **app-release.apk** na pasta assets caso queira testar em seu celular Android, basta fazer download e instalar.
+
 
 ## Atividades
 - 1 Desenvolva um aplicativo com **duas** telas uma **splash** com alguma animação de entrada e saída e outra tela chamada **home** listando os produtos em de um arquivo chamado assets/produtos.json conforme os a seguir:
