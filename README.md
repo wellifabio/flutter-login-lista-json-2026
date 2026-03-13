@@ -162,3 +162,5 @@ flutter build apk --release
   }
 ]
 ```
+### Entregas
+Para cada um dos Apps crie um repositório público do github e hospede com prints das telas em README.md conforme este exemplo. Apresente ao seu professor.
