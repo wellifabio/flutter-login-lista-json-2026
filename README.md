@@ -27,7 +27,7 @@ flutter run
 ```
 
 ## Outras informações
-Comando para gerar o .apk para instalar no Android e testar
+Comando para gerar o .apk para instalar no celr com Android e testar
 ```bash
 flutter build apk --release
 ```
